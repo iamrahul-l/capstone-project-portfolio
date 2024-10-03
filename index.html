@@ -1,0 +1,170 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iamrahul</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="icon" href="./assets/favicon.png" type="image/png">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logotop"><span>Iam Rahul</span></a>
+
+        <ul class="navlink">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <i class="fa-duotone fa-solid fa-bars" id="menuicon"></i>
+
+
+        <button class="vsitgithub" onclick="VisGithub()">Visit Github</button>
+    </header>
+    <section class="about" id="about">
+        <div class="aboutcontain">
+            <img src="./assets/proimg.jpeg" alt="">
+            <div class="inform">
+                <div class="infotxt">
+                    <h3>Hi, I'm</h3>
+                    <h1>Rahul</h1>
+                    <span>Frontend Developer</span>
+                </div>
+                <div class="butngrp">
+                    <div class="bt" onclick="downloadCV()">Download Cv</div>
+                    <div class="bt" onclick="Contact()">Contact</div>
+                </div>
+                <div class="socilaid">
+                    <a href="https://in.linkedin.com/in/rahul-lokhande-01757b17b"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/iamrahul-l"><i class="fa-brands fa-square-github"></i> </a>
+                    <a href="https://youtube.com/iamrahul_l"><i class="fa-brands fa-square-youtube"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="exper" id="experience">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="expinfom">
+
+            <div class="grid">
+
+                <div class="gridcard">
+
+                    <i class="fa-duotone fa-solid fa-code"></i>
+                    <span>Frontend Development</span>
+                    <h3>1 Year</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, dignissimos.</p>
+                </div>
+                <div class="gridcard">
+                    <i class="fa-duotone fa-solid fa-server"></i>
+                    <span>Backend Development</span>
+                    <h3> 3 Months</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, dignissimos.</p>
+                </div>
+                <div class="gridcard">
+                    <i class="fa-duotone fa-solid fa-computer"></i>
+                    <span class="gapspan">System Design</span>
+                    <h3>2 Months</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, dignissimos.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="section-title">Recent Projects</h2>
+    
+    <div class="projgrid">
+        <div class="projcards">
+            <img src="./assets/proj1.PNG" alt="">
+            <h3>High School Alumni Portal</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, consequuntur vitae.</p>
+            <div class="butngrp">
+                <div class="bt" onclick="Gitlv1()">Live demo</div>
+                 <div class="bt" onclick="Gitre1()">Github Repo</div>
+            </div>
+        </div>
+        <div class="projcards">
+            <img src="./assets/proj2.PNG" alt="">
+            <h3>Tin Dog </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, consequuntur vitae.</p>
+            <div class="butngrp">
+                <div class="bt" onclick="Gitlv2()">Live demo</div>
+                 <div class="bt" onclick="Gitre2()">Github Repo</div>
+            </div>
+        </div>
+        <div class="projcards">
+            <img src="./assets/proj3.PNG" alt="">
+            <h3>High School Payment Page</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, consequuntur vitae.</p>
+            <div class="butngrp">
+                <div class="bt" onclick="Gitlv3()">Live demo</div>
+                <div class="bt" onclick="Gitre3()">Github Repo</div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="contact" id="contact">
+        
+        <div class="input-box">
+
+            <h2 class="section-title">
+                Contact Me
+            </h2>
+
+            <div class="input">
+                <i class="fa-duotone fa-solid fa-envelope"></i>
+                <input type="text" placeholder="example@gmail.com">
+            </div>
+
+            <div class="bt">Submit</div>
+        </div>
+    </section>
+
+    <footer>
+
+        <ul>
+            <li>
+            <a href="#about">About</a>
+            </li>
+            
+            <li>
+            <a href="#experience">Experience</a>
+            </li>
+            
+            <li>
+            <a href="#projects">Projects</a>
+            </li>
+            
+            <li>
+            <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright"> &copy; <span id="year"></span> Iamrahull.in | All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script> 
+</body>
+
+</html>
